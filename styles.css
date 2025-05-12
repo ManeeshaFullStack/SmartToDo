@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Serif;
+  background-image: url("images/background1.jpg");
+
+  background-size: cover;
+  background-position: 0%;
+  position: relative;
+  min-height: 100vh;
+  margin: 0px;
+}
+.logo {
+  position: sticky;
+  top: 0px;
+  padding: 4px 8px;
+}
+img {
+  height: 50px;
+}
+.title {
+  color: #5c6ac4;
+}
+.listdel {
+  margin-left: 10px;
+  background-color: red;
+}
+
+.listdel:hover {
+  background-color: rgba(255, 0, 0, 0.542);
+}
+
+.listsave {
+  margin-left: 50px;
+  background-color: #74b816;
+}
+
+.listsave:hover {
+  background-color: #75b81666;
+}
+
+.listedit {
+  margin-left: 10px;
+
+  background-color: blue;
+}
+
+.listedit:hover {
+  background-color: rgba(0, 0, 255, 0.427);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.btn {
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  color: #411604;
+  width: 100%;
+  /* max-width: 600px; */
+  box-sizing: border-box;
+
+  border: 1px solid #1971c2;
+}
+
+.listTask:hover {
+  background-color: #0b7285;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.5s;
+  /* overflow: hidden; */
+}
+
+#currentTime {
+  font-size: 16px;
+}
+ul {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+#addbtn {
+  background-color: #37b24d;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 10px;
+  /* box-shadow: 0 10px 10px #e9ecef; */
+  margin-left: 10px;
+  border: 1px solid #f1f3f5;
+}
+
+#addbtn:hover {
+  box-shadow: 0 10px 20px #495057;
+}
+input::placeholder {
+  color: #dee2e6;
+}
+
+#taskInput {
+  width: 300px;
+  padding: 4px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.continer {
+  width: 800px;
+  /* background-color: #fbede7; */
+  font-family: Sans-Serif;
+  /* margin: 0 auto; */
+  padding: 16px 32px;
+}
+
+.addicon {
+  font-size: 20px;
+}
+
+.iconflex {
+  display: flex;
+  align-content: center;
+  gap: 5px;
+}
+.taskcontainer {
+  display: flex;
+  align-content: center;
+  gap: 50px;
+}
+
+.checkboxinput {
+  width: 20px;
+  height: 20px;
+}
+
+.datestyle {
+  margin-right: 10px;
+}
+
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* height: 60px; Fixed height */
+  background-color: #f1f3f5;
+  text-align: center;
+  background-color: #0c8599;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footersection {
+  padding: 10px;
+}
+.otherworklinks {
+  display: flex;
+  gap: 50px;
+  font-size: large;
+  color: wheat;
+  justify-content: center;
+}
+
+a {
+  font-weight: bold;
+  color: #ffe066;
+  text-decoration: none;
+}
+.footerdev {
+  font-size: 30px;
+  color: #e3fafc;
+  padding: 5px;
+}
+
+a:hover {
+  color: #dee2e6;
+  text-decoration: underline;
+}

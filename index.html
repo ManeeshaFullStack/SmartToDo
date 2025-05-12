@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SMART TODO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <div class="logo">
+    <img src="images/logo1.png" alt="logo of the webpage" />
+  </div>
+  <body>
+    <div class="continer">
+      <h1 class="title">SMART TODO</h1>
+      <p id="currentTime"></p>
+      <br /><br /><br />
+      <div>
+        <form>
+          <div class="taskcontainer">
+            <input type="text" placeholder="Enter your task" id="taskInput" />
+            <button id="addbtn">
+              <div class="iconflex">
+                <ion-icon class="addicon" name="add-circle"></ion-icon>New Task
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <br /><br /><br />
+
+      <div>
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footersection">
+        <div class="otherworklinks">
+          <span>My other works</span>
+          <a
+            href="https://maneeshafullstack.github.io/FinTrack/src/pages/index.html"
+            >FinTrack</a
+          >
+          <a href="https://maneeshafullstack.github.io/Homlyfood/src/index.html"
+            >HomlyFood</a
+          >
+        </div>
+
+        <br />
+        <span class="footerdev"
+          >Designed and developed by
+          <a href="https://github.com/ManeeshaFullStack"
+            ><b>Maneesha Sangam</b></a
+          ></span
+        >
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
